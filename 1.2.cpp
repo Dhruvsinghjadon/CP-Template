@@ -1,4 +1,18 @@
 #include <bits/stdc++.h>
+using namespace std;
+//#pragma GCC target ("avx2")
+//#pragma GCC optimize ("O3")
+//#pragma GCC optimize ("unroll-loops")
+
+// #include<bits/extc++.h>
+// using namespace __gnu_pbds;
+// template<typename T>
+// using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+// template<typename T>
+// using ordered_multiset = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_order_statistics_node_update>;
+// #define ook order_of_key
+// #define fbo find_by_order
+
  
 #define forn(i, n) for (int i = 0; i < n; i++)
 #define Forn(i, n) for (int i = 1; i <= n; i++)
@@ -37,10 +51,6 @@
  
 #define len(a) a.length()
 #define sz(a) a.size()
- 
-using namespace std;
-using namespace chrono;
-using namespace __gnu_pbds;
  
 typedef long long ll;
 typedef unsigned int ui;
