@@ -40,8 +40,8 @@ int main() {
  freopen("output.txt", "w" , stdout);
 #endif
 
-cin.tie(0);
-ios_base::sync_with_stdio(0);
+ ios_base::sync_with_stdio(false);
+    cin.tie(NULL);  
  
    cin>>t;
 
