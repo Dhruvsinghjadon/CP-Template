@@ -35,7 +35,7 @@ typedef long long ll;
 
 
 int main() {
-#ifndef ONLINE_JUDGE
+#ifndef Dhruv_Singh_Jadon
  freopen("input.txt", "r" , stdin);
  freopen("output.txt", "w" , stdout);
 #endif
