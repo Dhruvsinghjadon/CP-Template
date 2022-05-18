@@ -1,7 +1,7 @@
 // Dhruv Singh Jadon
 // Hello World
 
-
+#include<bits/stdc++.h>
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -17,11 +17,21 @@
 #include <iomanip>
 #include <climits>
 #include <bitset>
-
+using namespace std;
+#define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define MOD 1000000007
+#define MOD1 998244353
+#define nline "\n"
+#define pb push_back
+#define mp make_pair
+#define ff first
+#define ss second
+#define PI 3.141592653589793238462
+#define set_bits __builtin_popcount
 typedef unsigned long long ull;
 typedef long long ll;
 
-using namespace std;
+
 
 
 int main() {
@@ -30,10 +40,8 @@ int main() {
  freopen("output.txt", "w" , stdout);
 #endif
 
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-
+cin.tie(0);
+ios_base::sync_with_stdio(0);
  
    cin>>t;
 
