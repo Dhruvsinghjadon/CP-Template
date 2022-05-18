@@ -39,6 +39,8 @@
 #define sz(a) a.size()
  
 using namespace std;
+using namespace chrono;
+using namespace __gnu_pbds;
  
 typedef long long ll;
 typedef unsigned int ui;
