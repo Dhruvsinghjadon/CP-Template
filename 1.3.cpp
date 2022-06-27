@@ -41,6 +41,8 @@ const int mod2 = 998244353;
 #define Forn(i, n) for(int i=1;i<=n;i++)
 #define loop(i, a, b)for(auto i=a;i<=b;i++)
 #define rep(i,a,b) for(int i=a;i<b;i++)
+#define endl "\n"
+
 
 template<typename T1, typename T2>istream& operator>>(istream& in, pair<T1, T2> &a) {in >> a.fr >> a.sc; return in;}
 template<typename T1, typename T2>ostream& operator<<(ostream& out, pair<T1, T2> a) {out << a.fr << " " << a.sc; return out;}
