@@ -58,6 +58,9 @@ using namespace std;
 #define setbitsll(x) __builtin_popcountll(x)
 #define Tj return
 #define out 0
+
+
+
 // #define segtree
 #ifdef segtree
 #define mid (st + en) / 2
@@ -66,6 +69,10 @@ using namespace std;
 #define left st, mid, lidx, seg
 #define right mid + 1, en, ridx, seg
 #endif
+
+
+
+
 typedef vector<int> vi;
 typedef vector<pair<int, int>> vii;
 typedef pair<int, int> ii;
@@ -90,6 +97,8 @@ template <typename U, typename V>istream &operator>>(istream &in, pair<U, V> &p)
 template <typename U, typename V>ostream &operator<<(ostream &ost, pair<U, V> p){if (&ost == &cerr)ost << "{" << p.first << ": " << p.second << "}";else ost << p.first << " " << p.second << " ";return ost;}
 ostream &operator<<(ostream &ost, __int128_t x){string output = "";while(x)output += '0'+x%10, x /= 10;reverse(all(output)); ost << output;  return ost;}
 istream &operator>>(istream &in, __int128_t &x){x=0;string num;cin >> num;for(char c:num) x *= 10, x += c-'0';return in;}
+
+
 //Variadic IO
 template <typename... T>void read(T &...args){((cin >> args), ...);}
 template <typename... T>void print(T... args){((cout << args << " "), ...);cout << endl;}
